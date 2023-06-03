@@ -1,5 +1,7 @@
 配置剧情文件
 
+`AVGPanel` 为当前的AVG基础界面
+
 首先需要创建一个AvgCommandConfig的配置文件
 
 `HEADER`，负责配置章节标题。
