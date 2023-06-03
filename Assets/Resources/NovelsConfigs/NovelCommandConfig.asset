@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7f3e745f4fb04441a97fa5d6f7159ff, type: 3}
+  m_Name: NovelCommandConfig
+  m_EditorClassIdentifier: 
+  commandList:
+  - rid: 8730002536213512193
+  - rid: 8730002536213512196
+  - rid: 8730002536213512195
+  - rid: 8730002553438208001
+  - rid: 8730002536213512199
+  - rid: 8730002553438208002
+  - rid: 8730002553438208000
+  - rid: 8730002536213512194
+  - rid: 8730002536213512200
+  - rid: 8730002553438208003
+  - rid: 8730002536213512201
+  - rid: 8730002536213512202
+  - rid: 8730002536213512197
+  references:
+    version: 2
+    RefIds:
+    - rid: 8730002536213512193
+      type: {class: HEADER, ns: AVG_Command, asm: Assembly-CSharp}
+      data:
+        class_name: HEADER
+        title: "\u6807\u9898"
+        time: 2
+    - rid: 8730002536213512194
+      type: {class: Dialogue, ns: AVG_Command, asm: Assembly-CSharp}
+      data:
+        class_name: Dialogue
+        talker_name: "\u6DEE\u5A05"
+        talker_text: "\u54C8\u54C8\u54C8\u54C8\u54C8\u54C8\u54C8\u54C8\u54C8\u54C8"
+    - rid: 8730002536213512195
+      type: {class: CharacterSet, ns: AVG_Command, asm: Assembly-CSharp}
+      data:
+        class_name: CharacterSet
+        characters:
+        - name: "\u6DEE\u5A05"
+          sprite: {fileID: 21300000, guid: 19df702a35da2be408f0d52ec7cbdf58, type: 3}
+          position: {x: 420, y: 0, z: 0}
+          alpha: 0
+        - name: "\u6DEE\u5A051"
+          sprite: {fileID: 21300000, guid: 19df702a35da2be408f0d52ec7cbdf58, type: 3}
+          position: {x: -420, y: 0, z: 0}
+          alpha: 0
+    - rid: 8730002536213512196
+      type: {class: Background, ns: AVG_Command, asm: Assembly-CSharp}
+      data:
+        class_name: Background
+        image: {fileID: 21300000, guid: 38b7a1ee61ffbef46a540dffd412606c, type: 3}
+    - rid: 8730002536213512197
+      type: {class: END, ns: AVG_Command, asm: Assembly-CSharp}
+      data:
+        class_name: END
+    - rid: 8730002536213512199
+      type: {class: CharacterAction, ns: AVG_Command, asm: Assembly-CSharp}
+      data:
+        class_name: CharacterAction
+        character: "\u6DEE\u5A051"
+        actionType: 1
+        targetPosition: {x: 423, y: 0, z: 0}
+        moveTime: 0
+        targetAlpha: 1
+        alphaTime: 0
+    - rid: 8730002536213512200
+      type: {class: Dialogue, ns: AVG_Command, asm: Assembly-CSharp}
+      data:
+        class_name: Dialogue
+        talker_name: "\u6DEE\u5A05"
+        talker_text: 1111111111111111111111111111111111111
+    - rid: 8730002536213512201
+      type: {class: Dialogue, ns: AVG_Command, asm: Assembly-CSharp}
+      data:
+        class_name: Dialogue
+        talker_name: "\u6DEE\u5A05"
+        talker_text: 222222222222222222222222222222222
+    - rid: 8730002536213512202
+      type: {class: Dialogue, ns: AVG_Command, asm: Assembly-CSharp}
+      data:
+        class_name: Dialogue
+        talker_name: "\u6DEE\u5A05"
+        talker_text: 33333333333333333333333333333
+    - rid: 8730002553438208000
+      type: {class: SceneEffect, ns: AVG_Command, asm: Assembly-CSharp}
+      data:
+        class_name: SceneEffect
+        effectType: 2
+        DecayStart: 0.586
+        Range: {x: 10, y: 10, z: 1}
+        time: 1
+    - rid: 8730002553438208001
+      type: {class: CharacterAction, ns: AVG_Command, asm: Assembly-CSharp}
+      data:
+        class_name: CharacterAction
+        character: "\u6DEE\u5A05"
+        actionType: 1
+        targetPosition: {x: 423, y: 0, z: 0}
+        moveTime: 0
+        targetAlpha: 1
+        alphaTime: 0
+    - rid: 8730002553438208002
+      type: {class: FocusCharacter, ns: AVG_Command, asm: Assembly-CSharp}
+      data:
+        class_name: FocusCharacter
+        characterName: "\u6DEE\u5A05"
+    - rid: 8730002553438208003
+      type: {class: FocusCharacter, ns: AVG_Command, asm: Assembly-CSharp}
+      data:
+        class_name: FocusCharacter
+        characterName: "\u6DEE\u5A051"
